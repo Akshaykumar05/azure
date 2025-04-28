@@ -19,6 +19,7 @@ In this repo, I'm documenting the learnings of Azure Services.
 ----------- Storage ---------------
 15. Azure Storage - Data Redundancy
 16. Region Pairs
+17. Azure files
 
 
 ===========================================================
@@ -104,3 +105,34 @@ Azure Region Pairs are two Azure regions that are linked together to:
 * Ensure data backup across a wide area 🌐
 
 If one region has an outage (disaster, update), the paired region can take over.
+
+-----------------------------
+### 17. Azure Files
+Azure Files is a cloud-based shared file system that you can access just like a network drive — but it lives in Azure.
+
+* Fully managed by Azure
+* Accessible from Windows, Linux, and macOS
+* Access over SMB protocol (the same protocol you use for network drives at work)
+  
+#### Hands-on Time!
+<img width="959" alt="azure-storage1" src="https://github.com/user-attachments/assets/3475b104-bcc0-4d40-837f-4b848fb16d70" />
+<img width="959" alt="azure-storage2-filshare" src="https://github.com/user-attachments/assets/6339efe4-acc8-43b4-8f8d-0785a6efb157" />
+
+<img width="959" alt="azure-storage3-fileshare" src="https://github.com/user-attachments/assets/b4f42862-8997-476e-9891-1b62fdc161f1" />
+
+
+## 15. Storage
+
+Let's create a Storage Account from the Azure portal
+
+<img width="959" alt="azure-storage1" src="https://github.com/user-attachments/assets/34c80a10-4902-442f-93e7-6d8d94543db9" />
+
+<img width="959" alt="azure-storage2-filshare" src="https://github.com/user-attachments/assets/5c478acf-8231-4c9c-8dbf-853f5e081e0a" />
+
+Create a File share in this storage
+
+<img width="959" alt="azure-storage3-fileshare" src="https://github.com/user-attachments/assets/b94bed66-9d94-481a-b885-36e1d5a13a46" />
+
+
+
+

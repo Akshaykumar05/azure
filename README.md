@@ -15,17 +15,18 @@ In this repo, I'm documenting the learnings of Azure Services.
 
 -------------------
 ## 1. VM
+Azure Virtual Machine (VM) is an IaaS (Infrastructure as a Service) offering.
+It lets you create a virtual computer in the cloud. Just like your laptop or server, but running inside Azure’s datacenters.
 
-2. Container
-*  Lets create a container using azure portal
-   
-   <img width="959" alt="azure-contaiiner create" src="https://github.com/user-attachments/assets/959e9665-6c47-4012-9c3e-4c8e53e149ad" />
+* You control the OS, software, and settings.
+* Azure provides the physical hardware.
 
-* We have given the Public IP for container, now hit the domain name on browser. We'll get the Azure Container Instances page.
-  ```
-  containerlh24.atayd9hqd7h6bpdn.westindia.azurecontainer.io
-  ```
-  <img width="956" alt="azure-container 2" src="https://github.com/user-attachments/assets/352f6ef3-10b3-435c-bfbc-30788f982863" />
+### Hands-on Time!
+Let's create a VM
+
+<img width="959" alt="VM create 1" src="https://github.com/user-attachments/assets/44de676f-3118-4553-bac4-f1a494df56f0" />
+<img width="959" alt="VM create 4 VM created" src="https://github.com/user-attachments/assets/cc2eeb4c-c44e-4156-8efb-b466f1fcf026" />
+<img width="959" alt="VM create 5" src="https://github.com/user-attachments/assets/27d7a079-9379-4546-ba3b-bf4672e7ffa5" />
 
 ## 2. VMSS (Virtual Machine Scale Sets)?
 Virtual Machine Scale Sets (VMSS) let you automatically create and manage a group of identical virtual machines (VMs).
@@ -76,5 +77,14 @@ Hit the domain of Web App on browser, we can see the web app page as follow.
 
 <img width="959" alt="azure-web-app2" src="https://github.com/user-attachments/assets/d2e654f1-e39c-49e3-956e-fcf063cdbafc" />
 
+## 8. Container
+*  Lets create a container using azure portal
+   
+   <img width="959" alt="azure-contaiiner create" src="https://github.com/user-attachments/assets/959e9665-6c47-4012-9c3e-4c8e53e149ad" />
 
+* We have given the Public IP for container, now hit the domain name on browser. We'll get the Azure Container Instances page.
+  ```
+  containerlh24.atayd9hqd7h6bpdn.westindia.azurecontainer.io
+  ```
+  <img width="956" alt="azure-container 2" src="https://github.com/user-attachments/assets/352f6ef3-10b3-435c-bfbc-30788f982863" />
 

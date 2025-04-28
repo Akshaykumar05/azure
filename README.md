@@ -11,9 +11,17 @@ In this repo, I'm documenting the learnings of Azure Services.
 6. Managed Services: Iaas, Paas, Saas
 7. Azure Web App
 8. Container
+9. ACI (Azure Container Instances)
+10. Container Orchestration (AKS & Service Fabric)
+11. Serverless (Azure Functions)
+12. Shared Responsibility Model
+13. Storage types, Azure Storage
+----------- Storage ---------------
+15. Azure Storage - Data Redundancy
+16. Region Pairs
 
 
--------------------
+===========================================================
 ## 1. VM
 Azure Virtual Machine (VM) is an IaaS (Infrastructure as a Service) offering.
 It lets you create a virtual computer in the cloud. Just like your laptop or server, but running inside Azure’s datacenters.
@@ -88,3 +96,11 @@ Hit the domain of Web App on browser, we can see the web app page as follow.
   ```
   <img width="956" alt="azure-container 2" src="https://github.com/user-attachments/assets/352f6ef3-10b3-435c-bfbc-30788f982863" />
 
+## 16. Region Pairs
+Azure Region Pairs are two Azure regions that are linked together to:
+
+* Provide high availability 🛡️
+* Support disaster recovery 🔄
+* Ensure data backup across a wide area 🌐
+
+If one region has an outage (disaster, update), the paired region can take over.

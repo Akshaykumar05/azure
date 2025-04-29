@@ -20,7 +20,8 @@ In this repo, I'm documenting the learnings of Azure Services.
 15. Azure Storage - Data Redundancy
 16. Region Pairs
 17. Azure files
-
+18. Database
+19. Networking: Azure front door, Application Gateway vs API Gateway,
 
 ===========================================================
 ## 1. VM
@@ -134,5 +135,40 @@ Create a File share in this storage
 <img width="959" alt="azure-storage3-fileshare" src="https://github.com/user-attachments/assets/b94bed66-9d94-481a-b885-36e1d5a13a46" />
 
 
+-----------------------------
+## Azure Front Door?
+Azure Front Door is a global, scalable entry point for your web applications.
 
+It helps to:
 
+* Route user traffic smartly,
+* Accelerate performance (make apps load faster),
+* Protect against threats like DDoS attacks.
+
+ Think of it as a smart doorman that directs users to the best and fastest version of your app.
+
+## Snapshot
+A Snapshot is a full backup of a VM's disk that you can use for backup, recovery, or creating new disks/VMs.
+* It captures the exact state of your VM disk.
+* You can restore your VM later using the snapshot if needed (like after a crash or accidental deletion).
+
+## Disc Backup
+* A full backup of one or more VM disks (automated).
+* Regular, scheduled backups for long-term retention.
+* Whole VM, including OS and data disks.
+
+### Key Difference:
+* Snapshot = Manual, one-time, disk-level.
+* Disk Backup = Scheduled, full VM-level protection using Azure Backup service.
+
+## Swap Memory
+Swap memory is virtual memory used when your system's RAM is full.
+It's a portion of disk storage that acts like "extra RAM" to keep the system running smoothly.
+System moves less-used data to swap space (on disk) to free up memory.
+* It’s slower than RAM
+* Helps prevent crashes when RAM is overloaded
+
+## Server Hardening
+* Server hardening means securing your server by reducing its vulnerabilities.
+* Server hardening in Azure means following best practices to secure virtual machines, including limiting access, keeping systems updated, and monitoring activity.
+* In Azure: Use tools like NSGs, Just-in-Time VM access, Microsoft Defender for Cloud

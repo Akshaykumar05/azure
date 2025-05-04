@@ -26,6 +26,7 @@ In this repo, I'm documenting the learnings of Azure Services.
 19. Networking: Virtual Network, Subnet, Load balncer, Azure front door, Application Gateway vs API Gateway, Content Delivery Network (CDN)
 20. Azure Network Security: Firewall, Network Security Group (NSG), DDoS, Azure Private Link & Private Endpoints, Bastin Host
 21. Organizing & Managing Azure Resources: Resource Hierarchy (Management Groups > Subscription > Resource Group > Resources)
+22. Azure Identity Services: AAD, RBAC
 
 =====================================================================================
 ## 1. VM
@@ -184,4 +185,5 @@ Management Group
 We can see the current subscription details, as follow
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/69bf4e81-5498-4965-bb84-0c8a1db67ff8" />
 
+## 22. Azure Identity Services
 

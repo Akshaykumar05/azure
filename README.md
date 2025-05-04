@@ -1,4 +1,6 @@
 # Micosoft Azure
+![image](https://github.com/user-attachments/assets/dfa76fe6-40ef-41f1-96fc-3a63e6c2fe9e)
+
 In this repo, I'm documenting the learnings of Azure Services.
 
 -------------------
@@ -21,9 +23,11 @@ In this repo, I'm documenting the learnings of Azure Services.
 16. Region Pairs
 17. Azure files
 18. Database
-19. Networking: Azure front door, Application Gateway vs API Gateway,
+19. Networking: Virtual Network, Subnet, Load balncer, Azure front door, Application Gateway vs API Gateway, Content Delivery Network (CDN)
+20. Azure Network Security: Firewall, Network Security Group (NSG), DDoS, Azure Private Link & Private Endpoints, Bastin Host
+21. Organizing & Managing Azure Resources: Resource Hierarchy (Management Groups > Subscription > Resource Group > Resources)
 
-===========================================================
+=====================================================================================
 ## 1. VM
 Azure Virtual Machine (VM) is an IaaS (Infrastructure as a Service) offering.
 It lets you create a virtual computer in the cloud. Just like your laptop or server, but running inside Azure’s datacenters.
@@ -172,3 +176,12 @@ System moves less-used data to swap space (on disk) to free up memory.
 * Server hardening means securing your server by reducing its vulnerabilities.
 * Server hardening in Azure means following best practices to secure virtual machines, including limiting access, keeping systems updated, and monitoring activity.
 * In Azure: Use tools like NSGs, Just-in-Time VM access, Microsoft Defender for Cloud
+
+## 21. 
+Management Group
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/9ec15943-0e9d-4a0b-8a04-0bf392deead9" />
+
+We can see the current subscription details, as follow
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/69bf4e81-5498-4965-bb84-0c8a1db67ff8" />
+
+

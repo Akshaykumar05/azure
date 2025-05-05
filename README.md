@@ -178,6 +178,19 @@ System moves less-used data to swap space (on disk) to free up memory.
 * Server hardening in Azure means following best practices to secure virtual machines, including limiting access, keeping systems updated, and monitoring activity.
 * In Azure: Use tools like NSGs, Just-in-Time VM access, Microsoft Defender for Cloud
 
+## 16. Networking
+### Virtual Vetwork (VNet)
+An Azure Virtual Network (VNet) is the foundation of networking in Azure. It's a private, isolated network you create in the Azure cloud, much like a traditional network in your on-premises environment.
+
+| Features                                                            | Description                                                                           |
+| :------------------------------------------------------------------ | :------------------------------------------------- |
+| Isolation | Each VNet is isolated from other VNets and from the public internet unless you connect them.
+| Subnets | You can divide a VNet into subnets to organize and secure resources.
+| Private IP Addressing  | Resources in a VNet (like VMs, databases) get private IPs.
+| Secure Communication | Resources within a VNet can communicate securely with each other.
+| Internet Access | Outbound internet access is allowed by default; inbound is restricted unless configured.
+| VNet Peering | You can connect VNets across regions or subscriptions privately using VNet Peering.
+
 ## 21. 
 Management Group
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/9ec15943-0e9d-4a0b-8a04-0bf392deead9" />

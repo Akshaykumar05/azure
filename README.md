@@ -24,7 +24,7 @@ In this repo, I'm documenting the learnings of Azure Services.
 17. Azure files
 18. Database
 19. Networking: Virtual Network, Subnet, Load balncer, Azure front door, Application Gateway vs API Gateway, Content Delivery Network (CDN)
-20. Azure Network Security: Firewall, Network Security Group (NSG), DDoS, Azure Private Link & Private Endpoints, Bastin Host
+20. Azure Network Security: Firewall, Network Security Group (NSG), DDoS, Azure Private Link & Private Endpoints, Bastin Host, VNet Peering
 21. Organizing & Managing Azure Resources: Resource Hierarchy (Management Groups > Subscription > Resource Group > Resources)
 22. Azure Identity Services: AAD, RBAC
 
@@ -191,6 +191,34 @@ An Azure Virtual Network (VNet) is the foundation of networking in Azure. It's a
 | Internet Access | Outbound internet access is allowed by default; inbound is restricted unless configured.
 | VNet Peering | You can connect VNets across regions or subscriptions privately using VNet Peering.
 
+### VNet Peering
+Azure Virtual Network (VNet) Peering is a mechanism that connects two VNets in the same or different Azure regions, enabling resources in each VNet to communicate with each other using private IP addresses - just as if they were part of the same network.
+
+#### Types of VNet Peering
+1. Intra-region VNet Peering
+* Peers VNets within the same Azure region
+* Uses low-latency, high-bandwidth Azure backbone
+* No encryption between VNets (since it's internal)
+
+2. Global VNet Peering
+* Peers VNets across different Azure regions
+* Also uses Azure backbone, but incurs data transfer charges
+
+#### VNet Peering Features
+* Private IP connectivity across VNets
+* No public internet, VPN, or gateway required
+* Low latency, high bandwidth connectivity
+* Supports transitive routing (via NVA) with custom configuration
+* Can be used with Hub-and-Spoke or Mesh architectures
+
+#### Security and Access Control
+* Peering is not transitive by default (A ↔ B and B ↔ C doesn't mean A ↔ C)
+* Network security groups (NSGs) and route tables still apply
+* You can enable/disable options like:
+ * Forwarded traffic
+ * Gateway transit
+ * Remote gateway usage
+  
 ## 21. 
 Management Group
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/9ec15943-0e9d-4a0b-8a04-0bf392deead9" />

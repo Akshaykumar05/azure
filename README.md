@@ -12,12 +12,13 @@ In this repo, I'm documenting the learnings of Azure Services.
 5. Scaling
 6. Managed Services: Iaas, Paas, Saas
 7. Azure Web App
-8. Container
-9. ACI (Azure Container Instances)
-10. Container Orchestration (AKS & Service Fabric)
-11. Serverless (Azure Functions)
-12. Shared Responsibility Model
-13. Storage types, Azure Storage
+8. Azure Administration: Azure CLI, AzurePowershell & Cloudshell, Azure Resource Manager (ARM), Azure Dashboard
+9. Container
+10. ACI (Azure Container Instances)
+11. Container Orchestration (AKS & Service Fabric)
+12. Serverless (Azure Functions)
+13. Shared Responsibility Model
+14. Storage types, Azure Storage
 ----------- Storage ---------------
 15. Azure Storage - Data Redundancy
 16. Region Pairs
@@ -92,7 +93,12 @@ Hit the domain of Web App on browser, we can see the web app page as follow.
 
 <img width="959" alt="azure-web-app2" src="https://github.com/user-attachments/assets/d2e654f1-e39c-49e3-956e-fcf063cdbafc" />
 
-## 8. Container
+## 8. Azure Administration: Azure CLI, AzurePowershell & Cloudshell, Azure Resource Manager (ARM), Azure Dashboard
+### Azure Dashboard
+The Azure Dashboard is a customizable canvas in the Microsoft Azure portal that allows you to monitor resources, track billing, view metrics, and access tools in one place. It’s especially helpful for system administrators, DevOps engineers, and developers to quickly access and manage their cloud resources. Lets create a Dashboard..
+<img width="958" alt="image" src="https://github.com/user-attachments/assets/455407d7-28c8-4746-80cd-51add4353021" />
+
+## 9. Container
 *  Lets create a container using azure portal
    
    <img width="959" alt="azure-contaiiner create" src="https://github.com/user-attachments/assets/959e9665-6c47-4012-9c3e-4c8e53e149ad" />

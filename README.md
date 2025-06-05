@@ -28,7 +28,7 @@ In this repo, I'm documenting the learnings of Azure Services.
 20. Azure Network Security: Firewall, Network Security Group (NSG), DDoS, Azure Private Link & Private Endpoints, Bastin Host, VNet Peering
 21. Organizing & Managing Azure Resources: Resource Hierarchy (Management Groups > Subscription > Resource Group > Resources)
 22. Azure Identity Services: AAD, RBAC
-
+23. Azure Logic App
 =====================================================================================
 ## 1. VM
 Azure Virtual Machine (VM) is an IaaS (Infrastructure as a Service) offering.
@@ -234,3 +234,9 @@ We can see the current subscription details, as follow
 
 ## 22. Azure Identity Services
 
+## 23. Azure Logic App
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/c6c49683-ea95-4364-8853-64609b6a0946" />
+
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/1aad4802-517e-4e24-aa64-7a1122c5d629" />
+
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/e59cc44f-fc37-4bd8-8fb0-40b85e4321a5" />

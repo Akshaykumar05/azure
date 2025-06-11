@@ -29,6 +29,7 @@ In this repo, I'm documenting the learnings of Azure Services.
 21. Organizing & Managing Azure Resources: Resource Hierarchy (Management Groups > Subscription > Resource Group > Resources)
 22. Azure Identity Services: AAD, RBAC
 23. Azure Logic App
+24. Azure App Service
 =====================================================================================
 ## 1. VM
 Azure Virtual Machine (VM) is an IaaS (Infrastructure as a Service) offering.
@@ -240,3 +241,5 @@ We can see the current subscription details, as follow
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/1aad4802-517e-4e24-aa64-7a1122c5d629" />
 
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/e59cc44f-fc37-4bd8-8fb0-40b85e4321a5" />
+
+## 24. Azure App Service

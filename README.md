@@ -243,3 +243,4 @@ We can see the current subscription details, as follow
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/e59cc44f-fc37-4bd8-8fb0-40b85e4321a5" />
 
 ## 24. Azure App Service
+
